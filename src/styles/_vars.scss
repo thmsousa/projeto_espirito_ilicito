@@ -1,0 +1,12 @@
+// Paleta de Cores baseada na capa do livro "Espírito Ilícito"
+$color-dark-primary: #121212; // Deixa o fundo principal quase preto
+$color-dark-secondary: #171717; // Deixa o fundo da seção Hero quase preto (o que era cinza)
+$color-accent: #DAA520; // Dourado
+$color-text-light: #F8F8F8;
+$color-text-subtle: #AAAAAA; // Texto secundário e legenda
+
+// Fontes
+$font-serif: 'Garamond', 'Georgia', serif; // Clássica, para o corpo do texto
+$font-sans: 'Arial', 'Helvetica Neue', sans-serif; // Limpa, para títulos e botões
+$font-serif: var(--font-lora); // Lora para corpo do texto (Sinopse, Depoimentos)
+$font-sans: var(--font-montserrat); // Montserrat para títulos e botões

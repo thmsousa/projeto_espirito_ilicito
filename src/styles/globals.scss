@@ -1,0 +1,45 @@
+// Importa variáveis de cores e fontes
+@import 'vars';
+
+// Reset Básico
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+// Estilos Globais da Página
+html, body {
+    background-color: $color-dark-primary;
+    color: $color-text-light;
+    font-family: $font-sans;
+    line-height: 1.6; // Melhor legibilidade
+    scroll-behavior: smooth;
+    min-height: 100vh;
+}
+
+// Estilos de Link
+a {
+    color: $color-accent;
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+// Estilos de Títulos
+h1, h2, h3, h4 {
+    font-family: $font-sans;
+    color: $color-text-light;
+    margin-bottom: 1rem;
+    line-height: 1.2;
+}
+
+
+
+// Ajuste para compensar o Header fixo (que tem cerca de 60px de altura)
+main {
+    // Isso empurra o conteúdo da página para baixo para que o Hero não fique escondido sob o Header fixo
+    padding-top: 60px; 
+}
